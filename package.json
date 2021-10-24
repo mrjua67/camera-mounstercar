@@ -1,0 +1,35 @@
+{  "name": "control-security-mounstercar",
+  "version": "1.0.0",
+  "description": "Video controller security",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "juanpa_27181",
+  "dependencies": {
+    "express": "^4.16.4",
+    "simple-peer": "^9.2.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjua67/camera-mounstercar.git"
+  },
+  "keywords": [
+    "camera",
+    "security",
+    "domotic",
+    "cars",
+    "iot"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrjua67/camera-mounstercar/issues"
+  },
+  "homepage": "https://github.com/mrjua67/camera-mounstercar#readme"
+  }
+
